@@ -1,0 +1,426 @@
+/*BlogKulinarny.html*/
+body, ul, li, h1, h2, a{
+    margin:0;
+    padding:0;
+    font-family: arial;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+    left:40%;
+}
+.banner h1{
+    font-size: 60px;
+    text-align: right;
+    text-decoration: none;
+    color:#f87306;
+    padding: 60px;
+    position:absolute;
+    left: 60%;
+    top: 40%;
+}
+.banner span{
+    color: #fc8600;
+}
+nav{
+    background-color: #f5f5f5;
+    padding:20px;
+    position:sticky;
+    top:0px;
+}
+nav ul{
+    white-space: nowrap ;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+
+    width: 25%;
+    display:inline-block;
+    font-size: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: #5c5b5b;
+}
+nav li a.omnie{
+    color:#4b4b4b;
+}
+main{
+    max-width: 100%;
+    width:1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2{
+    color: #f87306;
+    font-size: 40px;
+}
+article p{
+    line-height: 2em;
+    color: #535353;
+}
+main ul{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+main ul li{
+    display: inline-block;
+    width: 40%;
+    margin:20px 5%;
+}
+main ul li img{
+    max-width: 100%;
+}
+.newsletter{
+    background: #f5f5f5;
+    text-align:center;
+    padding: 60px 20px;
+    color: #585858;
+}
+.newsletter h2{
+    font-size: 40px;
+}
+form input{
+    margin:20px 0;
+    padding:10px 20px;
+    font-size: 16px;
+    border:1px solid #ffffff;
+    text-align:center;
+    outline: none;
+}
+footer{
+    background-color: #f87306;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+}
+/*pseudo classes*/
+nav li a:hover{
+    text-decoration: underline;
+}
+form input:focus{
+    border:1px solid #919191;
+}
+form input:valid{
+    border: 2px solid #f87306; 
+    border-radius: 5px; 
+}
+/*responsive styles*/
+
+@media screen and (max-width: 1500px){
+    .banner h1{
+        font-size: 50px;   
+    }
+    nav li{
+        font-size: 16px;
+    }  
+}
+@media screen and (max-width: 1400px){
+    .banner h1{
+        font-size: 40px;   
+    }
+}
+@media screen and (max-width: 1090px){
+    .banner h1{
+        left:55%;  
+    }
+}
+@media screen and (max-width: 980px){
+    .banner h1{
+        font-size: 30px; 
+    }
+}
+@media screen and (max-width: 800px){
+    .banner h1{
+        position: relative; 
+        font-size: 24px;
+        text-align: center;
+        padding: 12px;
+        left: 0%;
+        top: -5px;
+        background-color: #f8f8f8;
+    }
+}
+@media screen and (max-width: 800px){
+    .banner h1 br{
+        display: none;
+    }
+    nav li{
+        font-size: 13px;
+    }  
+    article h2{
+        font-size: 20px;
+    }  
+}
+@media screen and (max-width: 630px){
+   .banner h1{
+        font-size: 20px;
+    }   
+    .newsletter{
+        font-size: 12px;
+    }
+    form input{
+        padding:5px 10px;
+        font-size: 10px;
+    }
+    main ul li{
+        width: 100%;
+        margin:20px 20px;
+        display: block;
+    }
+}
+@media screen and (max-width: 660px){
+    nav li{
+        font-size: 12px;
+        display:block;
+        width:100%;
+        margin:8px 0px;
+    }
+    nav{
+        position:relative;
+    }
+}
+
+/*Omnie.htm*/
+@media screen and (max-width: 840px){
+    .omnie h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .omnie h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 620px){
+    .omnie img{
+        max-width: 95%;
+    }
+}   
+@media screen and (max-width: 565px){
+    .omnie h1{
+        font-size: 20px;
+    }
+}
+
+/*preudo classes*/
+body img:hover{
+    bottom: 4px;
+}
+
+/* main nav*/
+@media screen and (max-width: 1650px){
+    .mainnav ul{
+        padding: 10px;
+        margin:8px 0px;
+    }
+    .mainnav ul{
+       max-width: 80%;
+    }
+}
+@media screen and (max-width: 1400px){
+    .mainnav ul a{
+       max-width: 80%;
+    }
+}
+@media screen and (max-width: 940px){
+    .mainnav li{
+       font-size: 14px;
+    }
+}
+@media screen and (max-width: 815px){
+    .mainnav li{
+        font-size: 12px;
+        display:block;
+        width:100%;
+        margin:8px 0px;
+    }
+}
+@media screen and (max-width: 815px){
+    .mainnav{
+        position: relative;
+    }
+}
+
+/*mojekulinarnepodróże.html*/
+
+.podróże .nowyartykuł h1{
+    padding: 20px 0px 5px;
+
+}
+.podróże .nowyartykuł{
+    color: #535353;
+    line-height: 2em;
+}
+.podróże .nowyartykuł span a{
+    text-decoration: none;
+    color:#f87306;
+}
+.artykuły{
+    max-width: 100%;
+    width: 1700px;
+    margin: 20px 0px;
+    padding: 0px auto;
+    column-count:2;
+}
+.artykuły li{
+    list-style-type: none;
+    padding:20px 20px;
+}
+.artykuły li span p{
+    line-height: 2em;
+    max-width:500px;
+    margin: 10px 0px;
+    
+    box-sizing: border-box;
+    left:-100px;
+    color: #535353;
+}
+.artykuły li span h2{
+    color: #f87306; 
+}
+.podróże li span a{
+    text-decoration: none;
+    color:#f87306;  
+}
+
+/*pseudo classes*/
+.podróże a:hover{
+    text-decoration: underline;
+}
+.podróże .nowyartykuł a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 1165px){
+    .podróże .nowyartykuł {
+        width: 600px;
+        margin: 20px 20%;
+    }
+    .artykuły{
+        columns: 1;
+        width: 700px;
+        margin: 20px 20%;
+    }
+}
+@media screen and (max-width: 890px){
+    .podróże .nowyartykuł img{
+        max-width: 95%;  
+    }  
+    .podróże .nowyartykuł{
+        max-width: 95%;
+    }
+    .podróże .nowyartykuł{
+        margin: 15px 8%;
+    }
+    .artykuły{
+       margin: 15px 8%;
+     }
+     .artykuły img{
+      max-width: 95%;  
+     }
+    }
+  
+/*wyjątkoweprezpisy*/
+main{
+    line-height: 2em;
+}
+.przepisy{
+    max-width: 1100px;
+    width:1700px;
+    column-count:2;  
+}
+.przepisy li{
+    max-width: 100%;
+    list-style-type: none;
+    padding:10px 0px 40px;
+}
+.przepisy img{
+    max-width: 100%;
+}
+.przepisy a{
+    background-color: #f87306;
+    color:#f8f8f8;
+    text-decoration:none;
+    font-size: 25px;
+    padding: 20px 40px;
+}
+/*pseudo classes*/
+ .przepisy a:hover{
+    text-decoration:underline;
+ }
+ @media screen and (max-width: 1165px){
+    main .przepisy{
+        width: 600px;
+        margin: 20px 20%;
+        column-count: 1;
+    }
+}
+@media screen and (max-width: 850px){
+    main .przepisy{
+        max-width: 95%; 
+    }
+}
+@media screen and (max-width: 800px){
+    main .przepisy{
+        margin: 15px 8%;
+    }
+}
+@media screen and (max-width: 500px){
+    main .przepisy li a{
+        font-size: 16px;
+ }
+}
+@media screen and (max-width: 300px){
+    main .przepisy li a{
+        font-size: 12px;
+ }
+    .przepisy a{
+    background-color:#f8f8f8; 
+    color: #535353;
+    padding: 10px 20px;
+}
+}
+
+/*warsztatykulinarne.html*/
+main h1{
+    color: #f87306;
+    font-size: 40px;
+}
+.zgłoszenie{
+    text-align: center;
+    background-color:#f8f8f8; 
+    padding: 10px 10px;
+}
+.zgłoszenie h2{
+    color: #f87306;
+    font-size: 30px;
+}
+.zgłoszenie .kalendarz a{
+    color: #f87306;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px 5px;
+    border:3px dotted #b4b4b4;
+}
+form .wyślij input{
+    border: 2px solid #b4b4b4;
+}
+
+/*pseudo classes*/
+.zgłoszenie .kalendarz a:hover{
+    border:3px dotted #f87306;
+}
+.zgłoszenie input:focus{
+    border:1px solid #919191;
+}
+form .wyślij input:hover{
+    border:2px solid #f87306;
+
+}
